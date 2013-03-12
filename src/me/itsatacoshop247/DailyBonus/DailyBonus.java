@@ -32,7 +32,7 @@ public class DailyBonus extends JavaPlugin
 
   public HashSet<String> playerList = new HashSet<String>();
 
-  public HashMap<String, Integer> numEarly = new HashMap<String, Integer>();
+	public HashMap<String, Integer> numEarly = new HashMap<String, Integer>();
   File configFile;
   FileConfiguration config;
   public Logger log = Logger.getLogger("Minecraft");
