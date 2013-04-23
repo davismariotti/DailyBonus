@@ -1,4 +1,4 @@
-package me.itsatacoshop247.DailyBonus;
+package info.gomeow.dailybonus;
 
 import java.util.List;
 
@@ -14,8 +14,7 @@ public class DailyBonusItemDelay implements Runnable {
 	private Player player;
 	private int num;
 
-	public DailyBonusItemDelay(DailyBonus instance, Player importPlayer,
-			int importNum) {
+	public DailyBonusItemDelay(DailyBonus instance, Player importPlayer, int importNum) {
 		this.plugin = instance;
 		this.player = importPlayer;
 		this.num = importNum;
